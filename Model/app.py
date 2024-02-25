@@ -4,7 +4,7 @@ import streamlit as st
 
 st.set_page_config(page_title='Score Predictor', layout="centered")
 
-filename = 'final_model.pkl'
+filename = 'Model/final_model.pkl'
 model = pickle.load(open(filename, 'rb'))
 
 st.markdown("<h1 style='text-align: center; color: white;'> Score Predictor</h1>",
