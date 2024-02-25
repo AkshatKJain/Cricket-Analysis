@@ -1,6 +1,8 @@
 # Score Predictor
 
-Model trained on dataset is capable of predicting final score of a team based on certain inputs.
+Model can be accessed from here -> https://cricketscorepredictor.streamlit.app/
+
+Model trained on dataset is capable of predicting final score of a team based on overs, total runs, total wickets, runs scored in last 5 overs, wickets taken in last 5 over.
 
 **Algorithms used:**
 
